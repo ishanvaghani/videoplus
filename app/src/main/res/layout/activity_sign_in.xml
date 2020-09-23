@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_signIn"
+        android:textColor="@color/colorGrey"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/colorGrey"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:hint="@string/email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_signIn"
+        android:textColor="@color/colorGrey"
+        android:textColorHint="@color/colorGrey"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:textSize="18sp"
+        android:hint="@string/password" />
+
+    <Button
+        android:id="@+id/button_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textColor="@color/colorGrey"
+        android:background="@drawable/button_background"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/createAccount_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGrey"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/create_an_account_signup" />
+
+</LinearLayout>

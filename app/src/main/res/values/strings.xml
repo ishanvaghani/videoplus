@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Video Plus</string>
+    <string name="popular">Popular</string>
+    <string name="action">Action</string>
+    <string name="comedy">Comedy</string>
+    <string name="sci_fi">Sci-fi</string>
+    <string name="horror">Horror</string>
+    <string name="romantic">Romantic</string>
+    <string name="actors">Actors</string>
+    <string name="search">Search</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="actor">Actor</string>
+    <string name="movies">Movies</string>
+    <string name="already_have_an_account_signin">Already have an account? SignIn</string>
+    <string name="create_an_account_signup">Create an account? SignUp</string>
+</resources>
